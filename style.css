@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid green; */
+}
+body {
+    margin: 0px;
+    border: 0px;
+}
+p {
+    border: 1px solid red;
+}
+#pad {
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 550px;
+    border: 2px solid black;
+}
+#pad > div {
+    background-color: black;
+}
