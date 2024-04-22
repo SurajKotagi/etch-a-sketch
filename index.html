@@ -7,22 +7,52 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
+            href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
             href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div>
-            <h1>Touch a sketch</h1>
+        <div><br /></div>
+        <!-- <br /> -->
+        <div class="middle">
+            <div id="headline">
+                <h1><span>Touch </span></h1>
+                <h1><span>a</span></h1>
+                <h1><span>sketch</span></h1>
+            </div>
+            <div class="block">
+                <div id="pad"></div>
+            </div>
+            <div class="info block">
+                <p id="madeBy">Made by Suraj ❤️</p>
+                <br />
+                <p>
+                    This project is built in path of
+                    <strong>Odin Project</strong> Web development Course
+                </p>
+            </div>
         </div>
+        <br />
         <div>
-            <div id="pad"></div>
+            <button id="new">new pad</button>
+            <input type="color" value="black" />
+            <button id="eraser">eraser</button>
+            <button id="rainbow">rainbow</button>
         </div>
-        <button id="new">new pad</button>
-        <input type="color" value="#ffffff" />
-        <button id="eraser">eraser</button>
-        <button id="rainbow">rainbow</button>
+        <br />
+        <div>
+            <span>pad size : </span>
+            <button id="small">small</button>
+            <button id="medium">medium</button>
+            <button id="large">large</button>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
